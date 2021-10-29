@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+    <style>
+        footer {
+
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        h1 {
+            border: 2px solid red;
+        }
+
+        tr {
+            padding-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>About Us Page</h2>
+        <nav>
+            <a href="home.html" target="_blank">HOME</a> |
+            <a href="Contacts.html" target="_blank">CONTACTS</a> |
+            <a href="About.html" target="_blank">ABOUT</a> |
+            <a href="base.html" target="_blank">BASE</a>
+        </nav>
+        <br>
+        <hr>
+        <h2>Kunal Vichare</h2>
+        <h3>Resume</h3>
+    </header>
+    <section>
+        <table>
+            <tr>
+                <td>
+                    <img src="IMG.jpg" alt="my image" style=width:300px;>
+                </td>
+                <td>
+                    <p>Graphics designer, <br> Ui Designer, <br> Web Developer,
+                        <br> Backend Developer, <br> Database Management</p>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Experience</h1>
+        <ul>
+            <li>1 Year as a Jr. Graphics Designer in <b><em>Streetbazaar.in</em></b></li>
+            <li>1 Year as a Graphics Designer & Ui/Ux Developer in <b><em>Uraansoftskills</em></b></li>
+            <li>1 Year as a Graphics Designer in <b><em>ItegrityPro</em></b></li>
+        </ul>
+        <h1>Skills</h1>
+        <ul>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe xd</li>
+            <li>HTML CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ul>
+    </section>
+    <script src="script.js"></script>
+    <footer> <b> Contact me - <a href="tel:+918889994803">+91-8889994803</a> </b><br>
+        <b>Email me - <a href="mailto:kunalvichare3103@gmail.com">kunalvichare3103@gmail.com</a> </b>
+    </footer>
+</body>
+
+</html>
